@@ -1,4 +1,3 @@
-<!-- not a template file  -->
 <?php 
 
    function university_files() {
@@ -10,5 +9,9 @@
    }
    // hook to get wp to add function to pull in stylesheet
    add_action('wp_enqueue_scripts', 'university_files');
-
+   // adds wp support to specifically show the pages title tags in tabs
+   function university_features() {
+      add_theme_support('title-tag');
+   }
+   add_action('after_setup_theme', 'university_features')
 ?>
