@@ -1,7 +1,9 @@
+<!-- ADDING PAGE TO PHP -->
 <?php 
    get_header(); ?>
 
 <div class="page-banner">
+          <!-- ADDING IMAGE FILES FROM CSS FOR SLIDER RUN ON JS -->  
       <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/library-hero.jpg'); ?>)"></div>
       <div class="page-banner__content container t-center c-white">
         <h1 class="headline headline--large">Welcome!</h1>
@@ -73,6 +75,7 @@
     <div class="hero-slider">
       <div data-glide-el="track" class="glide__track">
         <div class="glide__slides">
+          <!-- ADDING IMAGE FILES FROM CSS FOR SLIDER RUN ON JS -->
           <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bus.jpg'); ?>)">
             <div class="hero-slider__interior container">
               <div class="hero-slider__overlay">
@@ -82,6 +85,7 @@
               </div>
             </div>
           </div>
+          <!-- ADDING IMAGE FILES FROM CSS FOR SLIDER RUN ON JS -->
           <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/apples.jpg'); ?>)">
             <div class="hero-slider__interior container">
               <div class="hero-slider__overlay">
@@ -91,6 +95,7 @@
               </div>
             </div>
           </div>
+          <!-- ADDING IMAGE FILES FROM CSS FOR SLIDER RUN ON JS -->
           <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bread.jpg'); ?>)">
             <div class="hero-slider__interior container">
               <div class="hero-slider__overlay">

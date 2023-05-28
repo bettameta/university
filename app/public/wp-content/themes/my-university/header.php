@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
+  <meta charset="<?php bloginfo('charset'); ?>">
+<!-- RESPONSIVE CSS CALL OUTS -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
    <?php wp_head(); ?>
 <!-- REMOVED META FROM INITIAL BOILERPLATE 5/11/23
-   <meta charset="UTF-8">
+   
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 -->
    
 </head>
-<body>
+<body <?php body_class(); ?>>
 <header class="site-header">
       <div class="container">
         <h1 class="school-logo-text float-left">
